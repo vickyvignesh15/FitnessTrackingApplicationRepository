@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-28T23:00:36 IST" name="Fitness Tracking Application Test Suite" finished-at="2023-04-28T23:00:39 IST" duration-ms="2513">
+    <groups>
+    </groups>
+    <test started-at="2023-04-28T23:00:36 IST" name="Fitness Tracking Application Test" finished-at="2023-04-28T23:00:39 IST" duration-ms="2513">
+      <class name="com.qa.testcases.TestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.TestCases@2dc54ad4]" started-at="2023-04-28T23:00:36 IST" name="setup" finished-at="2023-04-28T23:00:39 IST" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logWorkoutTest()[pri:0, instance:com.qa.testcases.TestCases@2dc54ad4]" started-at="2023-04-28T23:00:39 IST" name="logWorkoutTest" finished-at="2023-04-28T23:00:39 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logWorkoutTest -->
+        <test-method signature="trackProgressTest()[pri:1, instance:com.qa.testcases.TestCases@2dc54ad4]" started-at="2023-04-28T23:00:39 IST" name="trackProgressTest" finished-at="2023-04-28T23:00:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackProgressTest -->
+        <test-method signature="connectWithFriendsTest()[pri:2, instance:com.qa.testcases.TestCases@2dc54ad4]" started-at="2023-04-28T23:00:39 IST" name="connectWithFriendsTest" finished-at="2023-04-28T23:00:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectWithFriendsTest -->
+        <test-method signature="accessExerciseLibraryTest()[pri:3, instance:com.qa.testcases.TestCases@2dc54ad4]" started-at="2023-04-28T23:00:39 IST" name="accessExerciseLibraryTest" finished-at="2023-04-28T23:00:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessExerciseLibraryTest -->
+        <test-method signature="integrateWithOtherAppsTest()[pri:4, instance:com.qa.testcases.TestCases@2dc54ad4]" started-at="2023-04-28T23:00:39 IST" name="integrateWithOtherAppsTest" finished-at="2023-04-28T23:00:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrateWithOtherAppsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TestCases@2dc54ad4]" started-at="2023-04-28T23:00:39 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1682703039353" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated tearDown.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated tearDown.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.TestCases -->
+    </test> <!-- Fitness Tracking Application Test -->
+  </suite> <!-- Fitness Tracking Application Test Suite -->
+</testng-results>
